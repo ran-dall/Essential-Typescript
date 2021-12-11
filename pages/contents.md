@@ -2,3 +2,5 @@
 - [[Why use TypeScript?]]
 - [[Benefits of Static Typying]]
 - [[Install TypeScript Container]]
+- [[tsconfig.json]]
+-
