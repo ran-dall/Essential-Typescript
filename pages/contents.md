@@ -1,8 +1,6 @@
 - [[What's TypeScript?]]
 - [[Why use TypeScript?]]
-- [[Benefits of Static Typying]]
-- [[Install TypeScript Container]]
--
+- [[Install TypeScript]]
 - [[tsconfig.json]]
 - [[package.json]]
 -

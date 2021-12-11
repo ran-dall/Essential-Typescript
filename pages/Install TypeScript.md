@@ -1,3 +1,5 @@
+alias:: TypeScript Container
+
 - Pull Node.js container for Docker Registry
 	- ```bash
 	  podman pull registry.hub.docker.com/library/node:latest

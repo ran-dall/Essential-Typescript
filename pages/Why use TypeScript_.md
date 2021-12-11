@@ -6,3 +6,6 @@
 - TypeScript is more productive than [[JavaScript]].
 	- Especially, if you have prior experience in **Typed Languages**.
 - Supports _classes_, _interfaces_, _generics_, _annotations_, _public_/_private_/_protected_ _access_ and **_more_**.
+## Benefits of Static Types
+- You can get help from the IDE tooling, which is very helpful in TypeScript.
+- If you want to refactor your code, it's easier to do with TypeScript.
