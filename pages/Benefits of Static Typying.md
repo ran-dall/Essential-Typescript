@@ -1,1 +1,2 @@
-- You can get
+- You can get help from the IDE tooling, which is very helpful in TypeScript.
+- If you want to refactor your code, it's easier to do with TypeScript.

@@ -1,0 +1,2 @@
+- An open source super-set of [[JavaScript]] developed by **Microsoft**
+- Compiles code intot [[JavaScript]] of various _ECMAScript_ flavors

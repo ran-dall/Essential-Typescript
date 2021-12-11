@@ -1,8 +1,8 @@
 - Optional static typing, or **Optionally Typed Language**
 	- This allows you to declare variables and not specify their types.
 	- TypeScript can do _type inference_.
-- Supports the latest and evolving JavaScript features.
+- Supports the latest and evolving [[JavaScript]] features.
 	- ...and even _future_ futures.
-- TypeScript is more productive than JavaScript.
+- TypeScript is more productive than [[JavaScript]].
 	- Especially, if you have prior experience in **Typed Languages**.
 - Supports _classes_, _interfaces_, _generics_, _annotations_, _public_/_private_/_protected_ _access_ and **_more_**.
