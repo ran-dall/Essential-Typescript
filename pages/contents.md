@@ -1,5 +1,5 @@
 - [[What's TypeScript?]]
 - [[Why use TypeScript?]]
 - [[Benefits of Static Typying]]
-- [[Install TypeScript]]
+- [[Install TypeScript Container]]
 -

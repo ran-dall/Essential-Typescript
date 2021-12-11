@@ -9,5 +9,6 @@
 - Run `essential-typescript` container
 	- ``` bash
 	  podman run --name essential-typescript --rm -ti \
+	  -v "$(pwd)":/code \
 	  essential-typescript:latest /bin/bash
 	  ```
