@@ -1,0 +1,4 @@
+- An open source super-set of [[JavaScript]] developed by Microsoft
+- In a recent survey by **StackOverflow**, it was ranked as the third most loved language.
+- Complies code into [[JavaScript]] of various **ECMAScript** flavors
+- Well supported and robust ecosystem.
