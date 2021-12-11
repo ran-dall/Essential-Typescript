@@ -1,2 +1,11 @@
 - Most of the time, you'll want to put your compiler options into _tsconfig.json_, for easier and central usage.
 - If the file exists, `tsc` will find the find in the root project directory and apply the configuration found in the _tsconfig.json_.
+- Sample `tsconfig.json`
+	- ```json
+	  {
+	      "complierOptions": {
+	          "outDir": "./dist" ,
+	          "baseUrl": "src" ,
+	      }
+	  }
+	  ```
