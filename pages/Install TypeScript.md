@@ -21,6 +21,16 @@ alias:: TypeScript Container
 	  git clone https://github.com/yfain/ts
 	  ```
 - Install the project dependencies
+  (must be be in project directory)
 	- ```shell
-	  n
+	  npm install
+	  ```
+- Complie all the code samples
+  (must be be in project directory)
+	- ```shell 
+	  npm run tsc
+	  ```
+- To run a code sample (e.g. `fatArrow.js`)
+	- ```shell 
+	  node dist/fatArrow.js
 	  ```
