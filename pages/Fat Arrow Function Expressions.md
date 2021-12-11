@@ -11,5 +11,5 @@ alias:: Fat Arrow,
 	- Anonymous Function
 		- ```typescript
 		  var getName = function () { return 'John Smith'; };
-		  console.log("The name is" + getName());
+		  console.log("The name is " + getName());
 		  ```
