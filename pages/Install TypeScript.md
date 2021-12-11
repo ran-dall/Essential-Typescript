@@ -15,8 +15,8 @@
 			- ```bash
 			  npm i typescript --save-dev
 			  ```
-- Install NeoVIM
-	- Add repository to container
-		- ``` bash
-		  add-apt-repository ppa:neovim-ppa/unstable
-		  ```
+- Install Micro
+	- ``` bash
+	  curl https://getmic.ro | bash &&\
+	  mv micro /usr/bin
+	  ```
