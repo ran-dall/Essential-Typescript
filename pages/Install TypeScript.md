@@ -5,7 +5,10 @@
 - Run Node.js container
 	- ``` bash
 	  $ podman run --name typescript --rm -ti \
-	    --network=host \
-	    diez:10 /bin/bash
+	    node:latest /bin/bash
+	  ```
+- Install TypeScript
+	- ``` bash
+	  $ npm i typescript -g
 	  
 	  ```
