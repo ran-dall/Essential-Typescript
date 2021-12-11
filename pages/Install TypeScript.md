@@ -15,3 +15,8 @@
 			- ```bash
 			  npm i typescript --save-dev
 			  ```
+- Install NeoVIM
+	- Add repository to container
+		- ``` bash
+		  add-apt-repository ppa:neovim-ppa/unstable
+		  ```
