@@ -3,3 +3,4 @@
 - [[Install TypeScript]]
 - [[tsconfig.json]]
 - [[package.json]]
+- [[Fat Arrow Function Expressions]]
