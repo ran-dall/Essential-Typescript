@@ -1,0 +1,2 @@
+- Most of the time, you'll want to put your compiler options into _tsconfig.json_, for easier and central usage.
+-
