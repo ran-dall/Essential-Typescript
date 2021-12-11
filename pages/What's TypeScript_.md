@@ -1,2 +1,3 @@
 - An open source super-set of [[JavaScript]] developed by **Microsoft**
 - Compiles code intot [[JavaScript]] of various _ECMAScript_ flavors
+	- TypeScript is not the language used by the browser. It will compile to [[JavaScript]], which would be used by the browser.
