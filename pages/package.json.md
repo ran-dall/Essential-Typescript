@@ -18,13 +18,14 @@
 	  ```
 	- `scripts`
 		- Used for providing alias to commands.
-		-
-		- `tsc`
-			- For compiling locally with `tsc`
-				- ```shell
-				  npm run tsc
-				  ```
+		- Commands declared in the `scripts` section in `package.json` will be available for `npm run <command>`.
+			- `tsc`
+				- For compiling locally with `tsc`
+					- ```shell
+					  npm run tsc
+					  ```
 	- `devDependencies`
 		- Packages that are required in the development process.
+		- Packages can be re-declared in `devDependencies` to ensure that a certain version is used locally for a project, instead of a global version. TypeScript is a good example, if you want to use a specific version of TypeScript.
 	- `dependencies`
 		- Packages that are required at runtime in any environment.
