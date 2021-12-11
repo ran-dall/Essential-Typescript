@@ -1,0 +1,1 @@
+- _Classes_ were introduced in _ECMAScript 6_, and it supported by **TypeScript**.
