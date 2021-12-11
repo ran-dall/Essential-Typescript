@@ -32,3 +32,5 @@
 			- This specifics the **ECMAScript** version you'd like to target when the [[JavaScript]] code is generated.
 		- `watch`
 			- This option allows for the TypeScript compiler to automatically keep recompiling the TypeScript codebase, as you work on it.
+		- To see more of the Compiler's options...
+			- `https://typescriptlang.org/docs/handbook/compiler-options.html`

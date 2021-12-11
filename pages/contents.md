@@ -3,4 +3,5 @@
 - [[Benefits of Static Typying]]
 - [[Install TypeScript Container]]
 - [[tsconfig.json]]
+- [[package.json]]
 -
