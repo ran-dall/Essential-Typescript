@@ -19,8 +19,12 @@
 		- `baseUrl`
 			- This would be where the source code is located.
 		- `sourceMap`
-			- A `sourceMap` creates a special relationship between the written TypeScript code and the generated [[JavaScript]] code; which makes it easier to debug problems in a browser (such as with using Chrome Dev Tools).
+			- A `sourceMap` creates a special relationship between the written TypeScript code and the generated [[JavaScript]] code; which makes it easier to debug problems in a browser (such as with using Chrome Dev Tools) by displaying the related TypeScript code.
 		- `moduleResoultion`
+			- You will use `import` and `export` statements in TypeScript.
+			- You must specify which module system you would like TypeScript to use.
+			- If using `"node"`, then it will use the rules defined by `node`.
 		- `noEmitOnError`
+			- This option prevents the generation of [[JavaScript]] code if there is an error detected.
 		- `target`
 		- `watch`
