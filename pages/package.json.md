@@ -1,3 +1,4 @@
+- Every _node.js_ must have a `package.json` file. TypeScript is not any different.
 - Sample `package.json`
 	- ```json
 	  {
@@ -15,5 +16,15 @@
 	      }
 	  }
 	  ```
-	- `tsc`
+	- `scripts`
+		- Used for providing alias to commands.
 		-
+		- `tsc`
+			- For compiling locally with `tsc`
+				- ```shell
+				  npm run tsc
+				  ```
+	- `devDependencies`
+		- Packages that are required in the development process.
+	- `dependencies`
+		- Packages that are required at runtime in any environment.
