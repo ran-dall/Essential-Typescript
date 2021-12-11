@@ -1,17 +1,26 @@
 alias:: TypeScript Container
 
 - Pull Node.js container for Docker Registry
-	- ```bash
+	- ```shell
 	  podman pull registry.hub.docker.com/library/node:latest
 	  ```
 - Build `essential-typescript` container
-	- ```bash 
+	- ```shell 
 	  podman build -t essential-typescript:latest .
 	  ```
 - Run `essential-typescript` container
-	- ``` bash
+	- ``` shell
 	  podman run --name essential-typescript --rm -ti \
 	  -v "$(pwd)":/code \
 	  essential-typescript:latest /bin/bash
 	  ```
 ## Code Samples
+- Run [[TypeScript Container]]
+- Clone `git` repo
+	- ```shell
+	  git clone https://github.com/yfain/ts
+	  ```
+- Install the project dependencies
+	- ```shell
+	  n
+	  ```
