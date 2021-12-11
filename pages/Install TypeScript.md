@@ -2,21 +2,12 @@
 	- ```bash
 	  podman pull registry.hub.docker.com/library/node:latest
 	  ```
-- Run Node.js container
-	- ``` bash
-	  podman run --name typescript --rm -ti \
-	  node:latest /bin/bash
+- Build `essential-typescript` container
+	- ```bash 
+	  podman build -t essential-typescript:latest .
 	  ```
-- Install TypeScript
+- Run `essential-typescript` container
 	- ``` bash
-	  npm i typescript -g
-	  ```
-		- Local Install
-			- ```bash
-			  npm i typescript --save-dev
-			  ```
-- Install Micro
-	- ``` bash
-	  curl https://getmic.ro | bash &&\
-	  mv micro /usr/bin
+	  podman run --name essential-typescript --rm -ti \
+	  essential-typescript:latest /bin/bash
 	  ```
