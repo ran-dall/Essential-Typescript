@@ -4,8 +4,23 @@
 	- ```json
 	  {
 	      "complierOptions": {
-	          "outDir": "./dist" ,
-	          "baseUrl": "src" ,
+	          "outDir": "./dist",
+	          "baseUrl": "src",
+	          "sourceMap": true,
+	          "moduleResolution": "node",
+	          "noEmitOnError": true,
+	          "target": "es5",
+	          "watch": true
 	      }
 	  }
 	  ```
+		- `outDir`
+			- This is the location of where the compiled code should go.
+		- `baseUrl`
+			- This would be where the source code is located.
+		- `sourceMap`
+			- A `sourceMap` creates a special relationship between the written TypeScript code and the generated [[JavaScript]] code; which makes it easier to debug problems in a browser (such as with using Chrome Dev Tools).
+		- `moduleResoultion`
+		- `noEmitOnError`
+		- `target`
+		- `watch`
