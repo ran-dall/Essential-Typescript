@@ -29,7 +29,7 @@
  ;; You may find a list of awesome logseq themes here:
  ;; https://github.com/logseq/awesome-logseq#css-themes
  ;; Example:
- :custom-css-url "@import url('https://cdn.jsdelivr.net/gh/dracula/logseq@master/custom.css');"
+ ;; :custom-css-url "@import url('https://cdn.jsdelivr.net/gh/dracula/logseq@master/custom.css');"
 
  ;; When :all-pages-public? true, export repo would export all pages within that repo.
  ;; Regardless of whether you've set any page to public or not.
