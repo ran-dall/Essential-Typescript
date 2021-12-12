@@ -167,6 +167,9 @@
  :ref/linked-references-collapsed-threshold 50
  :graph/settings {:builtin-pages? true, :journal? false, :orphan-pages? false}
  :favorites []
+ :feature/enable-journals? false
+ :feature/enable-timetracking? false
+ :default-home {:page "Contents"}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
